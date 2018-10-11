@@ -1,6 +1,4 @@
-# curso-mobile-first-marcobrunobr
-
-Curso Mobile First - MacrobrunoBR
+# Curso Mobile First Marcobrunobr
 
 Quer ter acesso ao curso?
 
