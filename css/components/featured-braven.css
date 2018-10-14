@@ -1,3 +1,12 @@
+.featured-braven {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  justify-content: space-between;
+  padding-bottom: var(--spacing-very-big);
+  padding-left: 32px;
+}
+
 .featured-braven > .action {
   display: block;
   text-indent: -9999px;
@@ -6,7 +15,7 @@
   border: 3px solid var(--color-first);
   border-radius: 50%;
   position: relative;
-  transition: transform 200ms linear, background-color 2ooms linear;
+  transition: transform 200ms linear, background-color 200ms linear;
 }
 
 .featured-braven > .action::before {
@@ -38,7 +47,7 @@
   text-transform: uppercase;
   color: var(--color-first);
   transform-origin: left top;
-  transform: rotate(-90deg); 
+  transform: rotate(-90deg) translate(-100px, 30px);
 }
 
 .featured-braven > .subtitle {
@@ -55,9 +64,14 @@
   color: var(--color-first);
 }
 
+.featured-braven > .subtitle > span {
+  background: url("../../img/índice.svg") no-repeat left center;
+  background-size: 25px;
+  padding-left: 28px;
+}
+
 .featured-braven > .subtitle > small {
   font-size: 1rem;
   color: var(--color-first-light);
   letter-spacing: 0.029em;
-  margin-left: var(--spacing-very-small);
 }
